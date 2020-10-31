@@ -25,7 +25,7 @@
    <property name="title">
     <string>输入参数</string>
    </property>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -54,20 +54,20 @@
      </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>89</y>
-      <width>201</width>
-      <height>22</height>
+      <y>80</y>
+      <width>481</width>
+      <height>26</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_3">
      <item>
       <widget class="QLabel" name="label_3">
        <property name="text">
-        <string>转换的列数</string>
+        <string>转换的表头</string>
        </property>
       </widget>
      </item>
@@ -76,6 +76,19 @@
      </item>
     </layout>
    </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>391</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>转换的表头支持多列用英文逗号分割</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QGroupBox" name="groupBox_2">
    <property name="geometry">
@@ -83,7 +96,7 @@
      <x>30</x>
      <y>190</y>
      <width>521</width>
-     <height>91</height>
+     <height>111</height>
     </rect>
    </property>
    <property name="title">
@@ -118,11 +131,24 @@
      </item>
     </layout>
    </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>421</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>请选择与源文件不一样的路径</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QPushButton" name="CreateButton">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>50</x>
      <y>360</y>
      <width>75</width>
      <height>23</height>
